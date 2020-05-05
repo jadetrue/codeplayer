@@ -1,0 +1,67 @@
+			body {
+				font-family: arial;
+				margin: 0 auto;
+			}
+			
+			header {
+				background-color: pink;
+				padding: 10px;
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				height: auto;
+			}
+			
+			#logo {
+				flex: 0 0 40%
+			}
+			
+			#buttonContainer {
+				flex: 0 0 60%;    
+				margin: 0 auto;
+			}
+			
+			.button {
+				height: max-content ;
+				width: max-content;
+				background-color: #fff;
+				padding: 10px;
+				display: inline-block;
+				border-radius: 5px;
+				border: solid lightpink;
+			}
+			
+			.highlighted {
+				opacity: 0.5;
+				cursor: pointer;
+				background-color: lightgoldenrodyellow;
+			}
+			
+			.active {
+				background-color: lightgoldenrodyellow;
+			}
+			
+			.division {
+				height: 100%;
+				width: 50%;
+				float: left;
+				border: unset;
+				padding: 10px;
+			}
+			
+			textarea {
+				resize: none;
+			}
+			
+			.hidden {
+				display: none;
+			}
+			
+			#htmlContainer {
+				background-color: #efefef;
+			}
+			
+			#htmlContainer:focus {
+				outline: unset;
+			}
